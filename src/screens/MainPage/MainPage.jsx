@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { SocialMediaMenu } from "../../components/SocialMediaMenu";
+import { CompactMenu } from "../../components/CompactMenu";
 
 export const MainPage = () => {
   return (
@@ -69,6 +70,7 @@ export const MainPage = () => {
             <div className="text-wrapper-8">socials.</div>
             <img className="FYS-logo" alt="Fys logo" src="/img/fys-logo-6-1.png" />
           </div>
+          {/* <div><CompactMenu/></div> */}
           <div className="title">
             <h1 className="future-for-young">
               Future for
@@ -103,7 +105,7 @@ export const MainPage = () => {
             </p>
           </div>
         </div>
-        <div className="socials">
+        <div id="socials" className="socials">
           <div className="overlap-4">
             <div className="text-wrapper-15">follow our journey</div>
             <div className="text-wrapper-16">reach us at futureforyoungscientists@gmail.com</div>
