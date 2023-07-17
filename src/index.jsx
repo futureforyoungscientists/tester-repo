@@ -11,13 +11,13 @@ import { MainPage } from "./screens/MainPage";
 
 const router = createBrowserRouter([
     {
-      path: "/home",
+      path: "/",
       element: <MainPage/>,
     },
   ]);
 
 const app = document.getElementById("app");
-const root = ReactDOMClient.createRoot(app);
+const root = ReactDOMClient.creaRoot(app);
 root.render(<RouterProvider router={router}/>);
 
 
